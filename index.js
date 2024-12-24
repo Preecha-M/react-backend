@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Configure CORS
 app.use(cors({
-    origin: 'https://react-app-production-5771.up.railway.app', // Replace with your React app's URL
+    origin: 'https://my-love.up.railway.app', // Replace with your React app's URL
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true // Enable this if you use cookies or authentication
 }));
